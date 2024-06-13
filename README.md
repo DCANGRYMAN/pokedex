@@ -27,11 +27,19 @@ Para executar o projeto:
 `yarn build`
 ```
 
-## Versão NodeJS (LTS)
-v16.20.2
 
 ## Portas
 
-Frontend: [http://localhost:3000](http://localhost:3000)
+Frontend: [http://localhost:3000](http://localhost:3000)  
+
 BFF: [http://localhost:4000](http://localhost:4000)
 
+## Versão NodeJS (LTS)
+v16.20.2
+
+## Instalação do Node.js v16 com NVM
+
+```bash
+nvm install 16
+nvm use 16
+```
