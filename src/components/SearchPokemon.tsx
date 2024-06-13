@@ -33,7 +33,7 @@ const SearchPokemon = () => {
   );
 
   useEffect(() => {
-    if (input.length > 3) {
+    if (input.length) {
       debouncedSearch(input);
     }
   }, [input, debouncedSearch]);
