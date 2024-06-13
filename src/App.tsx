@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import './App.scss';
-import SearchPokemon from './Pokemon/components/Search/Search';
+import './App.css';
+import SearchPokemon from './components/SearchPokemon';
 
 const App: FC = () => {
   return (

@@ -1,10 +1,9 @@
 import React, { useState, ChangeEvent, useEffect, useCallback } from "react";
 import { debounce } from 'lodash';
 import SearchInput from './SearchInput';
-
-import './Search.scss';
 import { searchPokemon } from "../services/PokemonService";
 import PokemonCard from "./PokemonCard";
+import { Pokemon } from "../interfaces/PokemonInterfaces";
 
 const SearchPokemon = () => {
   const [input, setInput] = useState("");

@@ -11,7 +11,7 @@ export class PokemonService {
     const lowerCaseQuery = query.toLowerCase();
     return this.httpService.get(`https://pokeapi.co/api/v2/pokemon?limit=1025`)
       .pipe(
-        mergeMap(response => {
+        mergeMap((response: any) => {
           const pokemonUrls = response.data.results
             .filter((pokemon: { name: string | string[]; }) => pokemon.name.includes(lowerCaseQuery))
             .map((pokemon: { url: any; }) => pokemon.url);
