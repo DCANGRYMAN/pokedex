@@ -1,9 +1,9 @@
 # Pokedex Frontend
 
-Frontend desenvolvido com ReactJS, para a API Pokedex, através BFF 
-que busca informações detalhadas de um Pokemon através do nome.
+Frontend com ReactJS, consumindo API Pokedex,  
+através de BFF que busca informações detalhadas de um Pokemon através do nome.
 
-Inclui sistema de cache 
+Inclui sistema de cache.
 
 ## Instalação
 
